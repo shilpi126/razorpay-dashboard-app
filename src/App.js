@@ -1,10 +1,12 @@
 import React from "react";
+import Header from "./components/Header";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
-    <h1 className="font-3xl font-bold text-center">
-    Hello world!
-    </h1>
+    <React.Fragment>
+      <Dashboard/>
+    </React.Fragment>
   );
 }
 
