@@ -19,7 +19,7 @@ const UserData = () => {
             <div  className='text-xs mb-5 text-white items-center'>
             <p className='mb-4 mt-4'>AMOUNT</p>
                 {data.map((item,index)=>(
-                    <p className='mb-4'>{item.date}</p>
+                    <p className='mb-4'>{item.amount}</p>
                 ))}
             </div>
             <div  className='text-xs mb-5 text-white items-center'>

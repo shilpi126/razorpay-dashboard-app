@@ -12,26 +12,26 @@ const Filter = () => {
     <div className='h-10   w-full bg-slate-800 flex justify-between'>
         <div className='flex justify-between items-center pl-4 '>
             <p className='text-white text-xs mr-4'>Quick Filter:</p>
-            <div className='w-28 h-6 pl-2 bg-blue-950 bg-opacity-40 mr-4 flex p-1'>
+            <div className='w-50 h-6 pl-2 bg-blue-950 bg-opacity-40 mr-4 flex p-1'>
             <p className='text-blue-500 text-sm  '>
             <IoCheckmarkCircle/>
             </p>
 
-            <p  className='text-xs text-blue-500 ml-1'>All Payouts</p>
+            <p  className='text-xs w-full  text-blue-500 ml-1'>All Payouts</p>
             </div>
-            <div className='w-28 h-6 pl-2 bg-blue-950 bg-opacity-40 mr-4 flex p-1'>
+            <div className='w-50 h-6 pl-2 bg-blue-950 bg-opacity-40 mr-4 flex p-1'>
 
             <p className='text-blue-500 text-sm  '>
             <BiRadioCircle/>
             </p>
-            <p  className='text-xs ml-1 text-white'>All Payouts</p>
+            <p  className='text-xs w-full  ml-1 text-white '>Schedule for next 2 days</p>
             </div>
-            <div className='w-28 h-6 pl-2 bg-blue-950 bg-opacity-40 mr-4 p-1 flex'>
+            <div className='w-50 h-6 pl-2 bg-blue-950 bg-opacity-40 mr-4 p-1 flex'>
 
             <p className='text-blue-500 text-sm  '>
             <BiRadioCircle/>
             </p>
-            <p  className='text-xs ml-1  text-white'>All Payouts</p>
+            <p  className='text-xs w-full   text-white'>Queued (RazorpayX A/c) 1</p>
             </div>
             
         </div>
